@@ -1,0 +1,11 @@
+Sale Supply Stock Difference
+============================
+
+Adds "Purchase Only the Shortage" to the product's Supply On Sale policy.
+When a sale creates its customer shipment, available physical stock is reserved
+first. A purchase request is created only for the remaining unreserved quantity,
+rounded up to the purchase unit's precision. Future receipts do not count as
+available stock. Reprocessing the sale does not duplicate purchase requests.
+
+The standard Never, Stock First and Always policies remain unchanged. Direct
+supplier-to-customer shipments continue to request the full quantity.

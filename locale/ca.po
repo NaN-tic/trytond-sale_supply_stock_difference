@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "selection:product.template,supply_on_sale:"
+msgid "Purchase Only the Shortage"
+msgstr "Compra només el que falta"
+
+msgctxt "selection:product.template.supply_on_sale,supply_on_sale:"
+msgid "Purchase Only the Shortage"
+msgstr "Compra només el que falta"
